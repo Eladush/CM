@@ -11,6 +11,8 @@ config:
     - 'blabla.txt'
   admin:
     users: ["EladKohavi"]
+  ignore_repositories:
+    - 'mexico_summer'
 
 automations:
   safe_changes:

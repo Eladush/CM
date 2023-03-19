@@ -39,7 +39,7 @@ automations:
 
   safe_changes:
     if:
-      - {{ is.docs }}
+      - true
     run: 
       - action: add-label@v1
         args:

@@ -11,23 +11,6 @@ config:
     users: ["EladKohavi"]
 
 automations:
-  dependencies_update:
-    if:
-      - {{ source.diff.files | reject(attr='new_file', term='package.json') | matchDiffLines(regex='^[+-].*console\\.log', ignoreWhiteSpaces=true) | every }}
-    run:
-      - action: add-label@v1
-        args:
-          label: 'dependencies-update'
-  spec_update:
-    if:
-      - {{ files | match(term='src/utils/diffParser.js') | some }}    
-    run: 
-      - action: add-reviewers@v1
-        args:
-          reviewers: [vim-zz]
-      - action: add-label@v1
-        args:
-          label: spec
   estimated_time_to_review:
     if:
       - false

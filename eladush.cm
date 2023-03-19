@@ -43,7 +43,7 @@ automations:
     run: 
       - action: add-label@v1
         args:
-          label: 'all_docs'
+          label: 'all_doggies'
 
 calc:
   etr: {{ branch | estimatedReviewTime }}

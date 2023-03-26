@@ -47,7 +47,7 @@ automations:
       - action: add-reviewers@v1
         args:
           reviewers: [yeelali14]
-          team_reviewers: ['a-team']
+#           team_reviewers: ['a-team']
 
 
 calc:

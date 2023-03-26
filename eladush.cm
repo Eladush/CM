@@ -46,8 +46,7 @@ automations:
           label: 'all_docs'
       - action: add-reviewers@v1
         args:
-          reviewers: [yeelali14]
-#           team_reviewers: ['a-team']
+          team_reviewers: []
 
 
 calc:

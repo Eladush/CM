@@ -8,7 +8,7 @@ config:
     - 'package-lock.json'
     - 'blabla.txt'
   admin:
-    users: ["EladKohavi"]
+    users: ["ShakedZrihen"]
 
 automations:
   dependencies_update:

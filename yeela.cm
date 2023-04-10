@@ -9,8 +9,6 @@ config:
   ignore_files:
     - 'package-lock.json'
     - 'blabla.txt'
-  admin:
-    users: ["EladKohavi"]
   ignore_repositories:
     - 'mexico_summer'
 
